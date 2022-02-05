@@ -1,0 +1,21 @@
+.task {
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    box-shadow: 0 0 10px #2ba4f511;
+    display: flex;
+    cursor: grab;
+    margin-bottom: 10px;
+    user-select: none;
+
+    p { width: calc(100% - 20px); }
+
+    .close { 
+        padding: 15px;
+        margin: -15px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,28 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+
+  .container { 
+    display: flex;
+    width: 60vw;
+    height: 80vh;
+  }
+
+  .add-task {
+    width: 94%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #36aeff;
+    border: none;
+    color: #FFF;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 2.5%;
+    left: 3%;
+    cursor: pointer;
+    user-select: none;
+  }
+}
