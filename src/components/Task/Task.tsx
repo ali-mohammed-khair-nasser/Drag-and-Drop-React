@@ -13,9 +13,9 @@ class Task extends Component<TaskProps> {
 
   render() {
     return (
-        <div className="task" id={ this.props.id } draggable onDragStart={ this.dragStart } onDragOver={ this.dragOver }>
-            <p>{ this.props.text }</p>
-        </div>
+      <div className="task" id={ this.props.id } draggable onDragStart={ this.dragStart } onDragOver={ this.dragOver }>
+        <p>{ this.props.text }</p>
+      </div>
     );
   }
 }

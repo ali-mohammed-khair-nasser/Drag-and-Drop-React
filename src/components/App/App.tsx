@@ -23,7 +23,7 @@ class App extends Component {
       text: "This is simple task with id " + (new Date()).getTime()
     })
 
-    this.setState({ tasks: allTasks })
+    this.setState({ tasks: allTasks });
   }
 
   render() {
